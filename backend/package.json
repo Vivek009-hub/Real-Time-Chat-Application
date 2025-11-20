@@ -4,17 +4,16 @@
   "description": "",
   "main": "src/index.js",
 
+   "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
 
-    "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
   
   "dependencies": {
     "bcryptjs": "^3.0.2",
